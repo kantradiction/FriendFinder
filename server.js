@@ -29,3 +29,5 @@ app.use("/", htmlRoutes);*/
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });
+
+app.set('port', process.env.PORT || 3000);
